@@ -492,9 +492,63 @@ Right click on the desktop to bring up the menu, click settings and then Wallpap
 
 # Command references
 
-## Whatever commands the class elects would be useful to include in a quick reference
+**cat _files_** - Prints files to screen.
+
+**cd _directory_** - Change to particular directory.
+
+**pwd** - Prints the current working directory.
+
+**cp _files_ _dest_** - Copies files and directories.
+
+**echo _string_** - Echoes a string to screen.
+
+**ls _files_** - List files.
+
+**mkdir _directory-name_** - Create directories.
+
+**mv _file1 _file2_** - Move/rename files.
+
+**rm _files_** - Remove files.
+
+**grep _searchstring_ _files_** - Find a particular search-string in files.
+
+**ps _options_** - Show current processes.
+
+**kill _[-9]_ _PID_** - Send signal to terminate a particular process (process ID).
+
+**su - _[username]_** - Switch user (e.g., become root).
+
+**sudo _commannd_** - Execute a partcular command as root.
+
+**dpkg -l _names_** - List packages.
+
+**dpkg -I _pkg_.deb** - Show package information.
+
+**dpkg -c _pkg_.deb** - List contents of package file.
+
+**touch _file_** - Create an empty file.
+
+**less _file_** - Display file content one screenful at at time.
+
+**ln -s _target_ _linkname_** - Create a symbolic link from a target to linkname.
+
+**lsof** - List open files and processes using them.
+
+**find _directory_ -name _file_ -print** - Find a file location in a directory.
+
+**gunzip _file_.gz** or **gzip _file_** - Uncompress or compress a .gz file.
+
+**tar cvf _archive_.tar _file1_ _file2_ ...** - Create a compressed archive containing multiple files.
+
+**tar xvf _archive_.tar** - Unpack a .tar file.
+
+## Whatever (other) commands the class elects would be useful to include in a quick reference
 
 ## Where to get help
+
+**man _page_ or man** - Read online help for a particular, or every, command.
+
+**_command_ --help** - Brief help for a particular command.
 
 ## From basic to advanced
 
